@@ -68,7 +68,7 @@ class LLMResponse:
 
 
 # Models that auto-return reasoning_content; do NOT send extra_body (may cause 400).
-_AUTO_THINKING_MODELS: List[str] = ["deepseek-reasoner", "deepseek-r1", "qwq"]
+_AUTO_THINKING_MODELS: List[str] = ["deepseek-reasoner", "deepseek-r1", "qwq", "deepseek-v4-pro"]
 
 # Models that need explicit opt-in via extra_body; payload decoupled from model name.
 _OPT_IN_THINKING_MODELS: Dict[str, dict] = {
